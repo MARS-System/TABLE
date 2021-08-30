@@ -7,7 +7,7 @@ $(function(){
 			"<td><input type='text'/></td>"+
 			"<td><input type='text'/></td>"+
 			"<td><input type='text'/></td>"+
-			"<td><img src='images/save-blk.png' class='btnSalvar'><img src='images/del-blk.png' class='btnExcluir'/></td>"+
+			"<td><img src='assets/save-blk.png' class='btnSalvar'><img src='assets/del-blk.png' class='btnExcluir'/></td>"+
 			"</tr>");
 
 		$(".btnSalvar").bind("click", Salvar);     
@@ -28,7 +28,7 @@ $(function(){
 		tdQtde.html(tdQtde.children("input[type=text]").val());
 		tdPeso.html(tdPeso.children("input[type=text]").val());
 		tdMetro.html(tdMetro.children("input[type=text]").val());
-		tdBotoes.html("<img src='images/del-blk.png' class='btnExcluir'/><img src='images/edit-blk.png' class='btnEditar'/>");
+		tdBotoes.html("<img src='assets/del-blk.png' class='btnExcluir'/><img src='assets/edit-blk.png' class='btnEditar'/>");
 
 		$(".btnEditar").bind("click", Editar);
 		$(".btnExcluir").bind("click", Excluir);
@@ -48,7 +48,7 @@ $(function(){
 		tdQtde.html("<input type='text' id='txtQtde' value='"+tdQtde.html()+"'/>");
 		tdPeso.html("<input type='text' id='txtPeso' value='"+tdPeso.html()+"'/>");
 		tdMetro.html("<input type='text' id='txtMetro' value='"+tdMetro.html()+"'/>");
-		tdBotoes.html("<img src='images/save-blk.png' class='btnSalvar'/><img src='images/del-blk.png' class='btnExcluir'/>");
+		tdBotoes.html("<img src='assets/save-blk.png' class='btnSalvar'/><img src='assets/del-blk.png' class='btnExcluir'/>");
 
 		$(".btnSalvar").bind("click", Salvar);
 		$(".btnEditar").bind("click", Editar);
