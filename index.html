@@ -1,0 +1,51 @@
+<html>
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="funcoes.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 25px auto;
+            box-shadow: rgba(red, green, blue, alpha);
+        }
+        .btnSalvar:hover {
+            background: url('images/save-col.png');
+        }
+        .btnExcluir:hover {
+            background: url('images/del-col.png');
+        }
+        .btnEditar:hover {
+            background: url('images/edit-col.png');
+        }
+
+    </style>
+</head>
+<body>
+    <div id="botao">
+        <button id="btnAdicionar">Novo</button>
+    </div>
+    <div id="tabela">
+        <table id="tblCadastro">         
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Data</th>
+                    <th>Qtde</th>
+                    <th>Peso</th>
+                    <th>M²Calc</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
